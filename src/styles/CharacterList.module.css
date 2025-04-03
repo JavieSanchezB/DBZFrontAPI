@@ -1,0 +1,82 @@
+.container {
+  flex: 1;
+  padding: 16px;
+  background-color: #F5F5F5;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.filterContainer {
+  margin-bottom: 16px;
+}
+
+.filterGroup {
+  margin-bottom: 8px;
+}
+
+.filterSelect,
+.filterInput {
+  border: 1px solid #ddd;
+  padding: 8px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.resetButton {
+  background-color: #ff6b6b;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.loadingWrapper {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.noResults {
+  padding: 16px;
+  text-align: center;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  gap: 8px;
+}
+
+.paginationButton,
+.pageButton {
+  padding: 8px 16px;
+  background-color: #ddd;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.activePage {
+  background-color: #007AFF;
+  color: white;
+}
+
+.resultsInfo {
+  padding: 8px;
+  margin-bottom: 8px;
+}

@@ -1,0 +1,22 @@
+/* ButtonStyles.module.css */
+.button {
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 20px;
+  }
+  
+  .button:hover {
+    background-color: #005bb5;
+    transform: scale(1.05);
+  }
+  
+  .button:active {
+    transform: scale(0.95);
+  }
+  
